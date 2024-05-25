@@ -35,7 +35,8 @@ logger:
   level: INFO
   
 external_components:
-  - source: my_components
+  - source: github://lotharkuenzli/esphome@main
+  #- source: components  # use a local copy of the component (copy to esphome/components/tc_bus_transceiver)
     components: [tc_bus_transceiver]
     
 lock:
